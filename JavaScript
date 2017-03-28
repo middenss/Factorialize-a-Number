@@ -1,0 +1,15 @@
+function factorialize(num) {
+  var current = num;
+  
+  if (num === 0) {
+    return 1;
+  }
+  else {
+    for (var i = 1; i < current; i++) {
+      num = num * i;
+    }
+  }
+  return num;
+}
+
+factorialize();
